@@ -7,7 +7,7 @@ import java.util.Objects;
 public class ContextConfigDataSource {
 
     private static Connection connection;
-    protected JdbcConect conexao = JdbcConect.MATHEUSDB;
+    protected JdbcConect conexao = JdbcConect.POSTGRESQL;
     private static ContextConfigDataSource configDataSource;
 
     private ContextConfigDataSource() {
